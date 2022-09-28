@@ -120,4 +120,8 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
+# Load secrets
 source $HOME/.security
+
+export TERRAGRUNT_DOWNLOAD=$HOME/.terragrunt-download
+alias docker="lima nerdctl"
