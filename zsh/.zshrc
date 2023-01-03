@@ -124,4 +124,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 source $HOME/.security
 
 export TERRAGRUNT_DOWNLOAD=$HOME/.terragrunt-download
-alias docker="lima nerdctl"
+alias tg=terragrunt
+alias tf=terraform
