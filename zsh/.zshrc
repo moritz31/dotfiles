@@ -124,3 +124,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export TERRAGRUNT_DOWNLOAD=$HOME/.terragrunt-download
 alias tg=terragrunt
 alias tf=terraform
+
+eval "$(op completion zsh)"; compdef _op op
